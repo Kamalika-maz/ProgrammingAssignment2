@@ -1,4 +1,4 @@
-## This function taken in a matrix as the input parameter and returns a list of functions which can be used to set the value of the matrix, get the matrix, calculate the inverse of the matrix and get the inverse of the matrix
+## This function takes in a matrix as the input parameter and returns a list of functions which can be used to set the value of the matrix, get the matrix, calculate the inverse of the matrix and get the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
 m <- NULL
   set <- function(y) {
